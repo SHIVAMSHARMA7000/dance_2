@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Rock Dance Classes</title>
+    <meta name="description" content="Browse the Rock Dance Classes gallery.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="gallery-page">
+    <div class="page-transition" aria-hidden="true"></div>
+    <header class="site-header">
+        <nav class="navbar" id="navbar">
+            <a class="brand" href="index.html"><span class="brand-mark">R</span><span class="brand-text">Rock Dance
+                    Classes</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="primary-navigation"><span></span><span></span><span></span></button>
+            <div class="nav-panel" id="primary-navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="classes.html" class="nav-link">Classes</a>
+                <a href="trainers.html" class="nav-link">Trainers</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="register.html" class="btn btn-gold nav-cta">Join Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero section-reveal">
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <p class="eyebrow">Gallery</p>
+                <h1>Studio highlights and performance memories</h1>
+                <p class="hero-subtitle">Click an image to view it larger.</p>
+            </div>
+        </section>
+
+        <section class="section container section-reveal">
+            <div class="gallery-grid">
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Dance rehearsal in motion"><img
+                        src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=900&q=80"
+                        alt="Dance rehearsal in motion"></button>
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Contemporary dance performance"><img
+                        src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=900&q=80"
+                        alt="Contemporary dance performance"></button>
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Bollywood dance class"><img
+                        src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+                        alt="Bollywood dance class"></button>
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Energetic group workout dance"><img
+                        src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80"
+                        alt="Energetic group workout dance"></button>
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Trainer guiding a student"><img
+                        src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
+                        alt="Trainer guiding a student"></button>
+                <button class="gallery-item reveal-card"
+                    data-full="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1600&q=85"
+                    data-alt="Classical dance pose"><img
+                        src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=80"
+                        alt="Classical dance pose"></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="index.html"><span class="brand-mark">R</span><span
+                        class="brand-text">Rock Dance Classes</span></a>
+                <p>Professional dance education with elegance, energy, and excellence.</p>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <div class="footer-links"><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+            </div>
+            <div>
+                <h3>Reach Us</h3>
+                <div class="footer-links"><span>24 Gold Avenue, Mumbai</span><a
+                        href="mailto:hello@rhythmdanceacademy.com">hello@rhythmdanceacademy.com</a><a
+                        href="tel:+919876543210">+91 98765 43210</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+        <img id="lightboxImage" alt="">
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
